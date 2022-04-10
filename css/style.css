@@ -115,7 +115,50 @@ main {
       padding: 10px 20px;
       outline: none;
       border: none; }
+  main .section__comentarios {
+    width: 100%;
+    height: 60vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 0 2%;
+    column-gap: 25px; }
+    main .section__comentarios .img__comentarios {
+      width: 60px;
+      height: 60px;
+      background: #D6000D;
+      border-radius: 50px;
+      position: absolute;
+      top: 15px;
+      left: 10px;
+      margin: 0 7px; }
+    main .section__comentarios .card__box {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 50%;
+      margin: 0 auto;
+      background: #ddd;
+      padding: 30px 40px;
+      column-gap: 20px;
+      border-radius: 10px; }
+    main .section__comentarios .card__text {
+      width: 80%;
+      height: 120%; }
+      main .section__comentarios .card__text p {
+        font-size: 14px; }
+      main .section__comentarios .card__text .person {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 10px 0;
+        position: relative; }
 
+@media (max-width: 991px) {
+  .section__comentarios {
+    flex-direction: column;
+    row-gap: 25px;
+    margin-bottom: 25px; } }
 @media (max-width: 783px) {
   main .section__top .section__top__content {
     flex-direction: column;
