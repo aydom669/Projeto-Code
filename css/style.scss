@@ -262,13 +262,72 @@ main {
                 position: relative;
             }
         }
-
-
-
     }
 
-    // Quarta Seção En
+    // Quarta Seção Fim
 
+}
+footer{
+    width: 100%;
+    height: 35vh;
+    padding: 40px 0;
+    justify-content: space-around;
+    background: #000;
+    color: #fff;
+
+    .P1__text{
+        strong{
+            font-size: 29px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+        
+    }
+
+    .P2__text--sobre{
+        strong{
+            font-size: 29px;
+        }
+
+        p{
+            font-size: 18px;
+            
+        }
+    
+    }
+
+    .P3__text--contato{
+        strong{
+            font-size: 29px;
+        }
+        p{
+            line-height: 3rem;
+            font-size: 18px;
+
+            a{
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .P4__text--Social{
+        text-align: center;
+        strong{
+            font-size: 29px;  
+        }
+
+        a i{
+            font-size: 29px;
+            padding: 0 10px;
+            
+        }
+
+        
+    }
+    
 }
 
 

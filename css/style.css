@@ -154,11 +154,54 @@ main {
         margin: 10px 0;
         position: relative; }
 
+footer {
+  width: 100%;
+  height: 35vh;
+  padding: 40px 0;
+  justify-content: space-around;
+  background: #000;
+  color: #fff; }
+  footer .P1__text strong {
+    font-size: 29px; }
+  footer .P1__text p {
+    font-size: 18px; }
+  footer .P2__text--sobre strong {
+    font-size: 29px; }
+  footer .P2__text--sobre p {
+    font-size: 18px; }
+  footer .P3__text--contato strong {
+    font-size: 29px; }
+  footer .P3__text--contato p {
+    line-height: 3rem;
+    font-size: 18px; }
+    footer .P3__text--contato p a {
+      color: #fff;
+      font-size: 18px; }
+  footer .P4__text--Social {
+    text-align: center; }
+    footer .P4__text--Social strong {
+      font-size: 29px; }
+    footer .P4__text--Social a i {
+      font-size: 29px;
+      padding: 0 10px; }
+
 @media (max-width: 991px) {
-  .section__comentarios {
+  main .section__comentarios {
     flex-direction: column;
     row-gap: 25px;
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+    main .section__comentarios .card__text p {
+      font-size: 19px; }
+
+  footer {
+    flex-direction: column;
+    row-gap: 25px;
+    height: 100%;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 30%; }
+    footer .P4__text--Social strong {
+      padding: 10px 0; } }
 @media (max-width: 763px) {
   main .section__top .section__top__content {
     flex-direction: column;
@@ -207,8 +250,7 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    /* height: 50%; */
-    margin: 0 auto;
+    height: 70%;
     background: #ddd;
     padding: 30px 40px;
     column-gap: 20px;
