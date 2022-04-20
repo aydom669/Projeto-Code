@@ -1,0 +1,44 @@
+@media (max-width: 340px) {
+    main {
+
+        .section__top {
+            //  height: 50vh;
+
+            .section__top__content {
+
+
+                .section__top--img {
+
+                    img {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+
+        .section__opção {
+
+            .img__opcao img {
+                width: 250px;
+                font-size: 16px;
+            }
+
+            .section__opção--lista {
+
+                li {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .section__comentarios {
+            height: 0%;
+
+            .card__box {
+                padding: 30px 60px;
+            }
+        }
+
+
+    }
+}
