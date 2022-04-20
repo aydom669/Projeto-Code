@@ -1,0 +1,44 @@
+
+@media  (max-width: 763px){
+    main {
+
+        .section__top {
+    
+            .section__top__content {
+                flex-direction: column;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                row-gap: 60px;
+                margin-top: 40px;
+    
+                .section__top--img {
+                    .img__video {
+                        width: 70%;
+                        margin-bottom: 20px;
+                    }
+                }
+    
+    
+            }
+    
+        }
+    
+        .section__opção {
+            flex-direction: column;
+            height: 90vh;
+            width: 100%;
+            margin-top: 70%;
+            margin-bottom: 40%;
+    
+    
+        }
+    
+        .section__comentarios {
+           
+            .card__text p {
+                font-size: 16px;
+            }
+        }
+    }
+}

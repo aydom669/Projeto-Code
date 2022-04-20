@@ -1,0 +1,93 @@
+@media(max-width: 587px) {
+    main {
+        .header {
+            flex-direction: column;
+
+            .nav__list {
+
+                .nav__link {
+
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .section__top {
+
+            .section__top__content {
+                flex-direction: column;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                row-gap: 50px;
+
+                .section__top--img {
+                    .img__video {
+                       // width: 100%;
+                    }
+                }
+
+                .section__content--text {
+
+                    .p__seunegocio {
+                        font-size: 17px;
+                    }
+
+                    .h2__website {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        .section__opção {
+          //  justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+
+
+            .section__opção--form {
+                text-align: center;
+
+                label {
+                    padding: 10px;
+                }
+
+                input {
+                    margin-bottom: 15px;
+                }
+            }
+
+        }
+
+        .section__comentarios {
+
+            .card__box {
+
+                position: relative;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                /* height: 50%; */
+                margin: 0 auto;
+                background: #ddd;
+                padding: 30px 40px;
+                column-gap: 20px;
+                border-radius: 10px;
+            }
+
+            .img__comentarios {
+                width: 50px;
+                height: 50px;
+                background: #D6000D;
+                border-radius: 50px;
+                position: absolute;
+                top: 15px;
+                left: 10px;
+                margin: 0 7px;
+            }
+        }
+    }
+}

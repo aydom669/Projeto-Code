@@ -1,52 +1,62 @@
-*{
+// Reset
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+// Base
+
+body {
     background: whitesmoke;
     font-family: 'Roboto';
 }
 
-main{
+// Base Fim
+
+// main
+
+main {
 
     width: 100%;
     min-height: 100vh;
 
-    .header{
+    // header
+
+    .header {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 5px 50px;
 
-        h1{
+        h1 {
             font-weight: 700;
             font-size: 33px;
-            color:  #D6000D;
+            color: #D6000D;
 
-            span{
+            span {
                 color: #000;
             }
         }
 
-        .nav__list{
-            
-            align-items:center;
+        .nav__list {
+
+            align-items: center;
             justify-content: center;
             padding: 10px 0;
-           
 
-            .nav__link{
+
+            .nav__link {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 list-style: none;
                 column-gap: 20px;
-                
 
-                a{
+
+                a {
                     font-size: 17px;
                     text-decoration: none;
                     color: #000;
@@ -54,67 +64,71 @@ main{
                 }
             }
 
-            span{
+            span {
 
                 background: #D6000D;
                 text-align: center;
-                padding: 6px 50px ;
+                padding: 6px 50px;
                 border-radius: 15px;
 
-                .btn__link{
+                .btn__link {
                     color: #fff;
 
                 }
 
             }
         }
-        
+
     }
 
-    .section__top{
+    // header Fim
+
+    // Primeira Seção
+
+    .section__top {
         width: 100%;
         height: 50vh;
         display: flex;
         align-items: center;
         margin-top: 100px;
 
-        .section__top__content{
+        .section__top__content {
             display: flex;
             align-items: center;
             column-gap: 5%;
             margin: 0 auto;
             width: 80%;
             height: 100%;
-           
 
-            .section__top--img{
-                
-               // border: 1px solid #000;
+
+            .section__top--img {
+
+                // border: 1px solid #000;
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
-                img{
+                img {
                     width: 450px;
-                  
+
                 }
             }
 
-            .section__content--text{
-                
-                p{
+            .section__content--text {
+
+                p {
                     font-weight: bold;
                     font-size: 25px;
                 }
 
-                h2{
+                h2 {
                     color: #D6000D;
                     font-size: 40px;
                     padding-bottom: 25px;
                 }
 
-                a{
-                    
+                a {
+
                     text-decoration: none;
                     background: #D6000D;
                     color: #fff;
@@ -124,10 +138,14 @@ main{
                 }
             }
         }
-        
+
     }
 
-    .section__opção{
+    // Primeira Seção End
+
+    // Segunda Seção
+
+    .section__opção {
         margin-top: 10%;
         width: 100%;
         justify-content: space-evenly;
@@ -136,38 +154,42 @@ main{
         display: flex;
         flex-direction: row-reverse;
 
-        .img__opcao img{
-          width: 400px;
-            
+        .img__opcao img {
+            width: 400px;
+
         }
 
-        .section__opção--lista{
+        .section__opção--lista {
             list-style: none;
-            
-            li{
+
+            li {
                 line-height: 2.0rem;
                 font-size: 20px;
                 font-weight: 500;
 
-                i{
+                i {
                     color: #D6000D;
                 }
             }
         }
     }
 
-    .section__opção--form{
-        margin-top: 26px;
-        
-        
+    // Segunda Seção End
 
-        label{
-            font-weight:  700;
+    // Terceira Seção
+
+    .section__opção--form {
+        margin-top: 26px;
+
+
+
+        label {
+            font-weight: 700;
             font-size: 18px;
             padding: 10px 0;
         }
 
-        input{
+        input {
             background: #eee;
             padding: 10px 20px;
             outline: none;
@@ -175,7 +197,7 @@ main{
             border: none;
         }
 
-        button{
+        button {
             background: #D6000D;
             color: #fff;
             border-radius: 15px;
@@ -183,19 +205,23 @@ main{
             outline: none;
             border: none;
         }
-        
+
     }
 
-    .section__comentarios{
+    // Terceira Seção End
+
+    // Quarta Seção
+
+    .section__comentarios {
         width: 100%;
-        height: 60vh;
-        margin-top: 10%;
+        height: 50vh;
+        margin-top: 8%;
         display: flex;
         justify-content: center;
         padding: 0 2%;
         column-gap: 25px;
 
-        .img__comentarios{
+        .img__comentarios {
             width: 60px;
             height: 60px;
             background: #D6000D;
@@ -204,32 +230,32 @@ main{
             top: 15px;
             left: 10px;
             margin: 0 7px;
-            
+
         }
 
-        .card__box{
-           position: relative;
-           display: flex;
-           justify-content: center;
-           width: 100%;
-           height: 50%;
-           margin: 0 auto;
-           background: #ddd;
-           padding: 30px 40px;
-           column-gap: 20px;
-           border-radius: 10px;
+        .card__box {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 50%;
+            margin: 0 auto;
+            background: #ddd;
+            padding: 30px 40px;
+            column-gap: 20px;
+            border-radius: 10px;
         }
 
-        .card__text{
-         width: 80%;
-         height: 120%;
-            
+        .card__text {
+            width: 80%;
+            height: 120%;
 
-            p{
+
+            p {
                 font-size: 14px;
             }
 
-            .person{
+            .person {
                 font-size: 14px;
                 font-weight: bold;
                 margin: 10px 0;
@@ -238,122 +264,15 @@ main{
         }
 
 
-       
+
     }
+
+    // Quarta Seção En
 
 }
 
 
-@media (max-width: 991px){
-    .section__comentarios{
-        flex-direction: column;
-        row-gap: 25px;
-        margin-bottom: 25px;
-
-    }
-}
-
-
-@media (max-width: 783px){
-
-    main{
-
-        .section__top{
-        
-            .section__top__content{
-                flex-direction: column;
-                text-align: center;
-                width: 100%;
-                height: 100%;
-                row-gap: 60px;
-                margin-top: 40px;
-    
-                .section__top--img{
-                    .img__video{
-                        width: 70%;
-                        margin-bottom: 20px;
-                    }
-                }
-    
-               
-            }
-        }
-    
-        .section__opção{
-            flex-direction: column;
-            height: 130vh;
-            width: 100%;
-            margin-top: 70%;
-            
-        }
-    }
-}
-
-
-
-@media(max-width: 587px){
-    .header{
-        flex-direction: column;
-
-        .nav__list{
-            
-            .nav__link{
-                
-                span{
-                    display: none;
-                }
-            }
-        }
-    }
-
-    .section__top{
-        
-        .section__top__content{
-            flex-direction: column;
-            text-align: center;
-            width: 100%;
-            height: 100%;
-            row-gap: 50px;
-
-            .section__top--img{
-                .img__video{
-                    width: 100%;
-                }
-            }
-
-            .section__content--text{
-               
-                .p__seunegocio{
-                    font-size: 17px;
-                }
-
-                .h2__website{
-                    font-size: 30px;
-                }
-            }
-        }
-    }
-
-    .section__opção{
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-
-        .img__opcao img{
-            width: 200px;
-        }
-
-        .section__opção--form{
-            text-align: center;
-            label{
-                padding: 10px;
-            }
-
-            input{
-                margin-bottom: 15px;
-            }
-        }
-        
-    }
-}
+@import "midea991";
+@import "midea783";
+@import "midea587";
 
