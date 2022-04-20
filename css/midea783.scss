@@ -14,7 +14,7 @@
     
                 .section__top--img {
                     .img__video {
-                        width: 70%;
+                        margin-right: 0;
                         margin-bottom: 20px;
                     }
                 }
@@ -26,11 +26,18 @@
     
         .section__opção {
             flex-direction: column;
-            height: 90vh;
+         //   height: 90vh;
             width: 100%;
             margin-top: 70%;
             margin-bottom: 40%;
-    
+            
+            .img__opcao img{
+                margin-left: 0;
+            }
+
+            .section__opção--lista{
+                margin-top: 10%;
+            }
     
         }
     

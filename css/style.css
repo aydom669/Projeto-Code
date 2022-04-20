@@ -56,14 +56,14 @@ main {
       align-items: center;
       column-gap: 5%;
       margin: 0 auto;
-      width: 80%;
       height: 100%; }
       main .section__top .section__top__content .section__top--img {
         display: flex;
         justify-content: center;
         align-items: center; }
         main .section__top .section__top__content .section__top--img img {
-          width: 450px; }
+          width: 450px;
+          margin-right: 50%; }
       main .section__top .section__top__content .section__content--text p {
         font-weight: bold;
         font-size: 25px; }
@@ -81,13 +81,14 @@ main {
   main .section__opção {
     margin-top: 10%;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 70vh;
     display: flex;
     flex-direction: row-reverse; }
     main .section__opção .img__opcao img {
-      width: 400px; }
+      width: 400px;
+      margin-left: 20%; }
     main .section__opção .section__opção--lista {
       list-style: none; }
       main .section__opção .section__opção--lista li {
@@ -164,16 +165,19 @@ footer {
   footer .P1__text strong {
     font-size: 29px; }
   footer .P1__text p {
-    font-size: 18px; }
+    font-size: 18px;
+    color: #ddd; }
   footer .P2__text--sobre strong {
     font-size: 29px; }
   footer .P2__text--sobre p {
-    font-size: 18px; }
+    font-size: 18px;
+    color: #ddd; }
   footer .P3__text--contato strong {
     font-size: 29px; }
   footer .P3__text--contato p {
     line-height: 3rem;
-    font-size: 18px; }
+    font-size: 18px;
+    color: #ddd; }
     footer .P3__text--contato p a {
       color: #fff;
       font-size: 18px; }
@@ -211,14 +215,17 @@ footer {
     row-gap: 60px;
     margin-top: 40px; }
     main .section__top .section__top__content .section__top--img .img__video {
-      width: 70%;
+      margin-right: 0;
       margin-bottom: 20px; }
   main .section__opção {
     flex-direction: column;
-    height: 90vh;
     width: 100%;
     margin-top: 70%;
     margin-bottom: 40%; }
+    main .section__opção .img__opcao img {
+      margin-left: 0; }
+    main .section__opção .section__opção--lista {
+      margin-top: 10%; }
   main .section__comentarios .card__text p {
     font-size: 16px; } }
 @media (max-width: 587px) {
@@ -232,19 +239,24 @@ footer {
     width: 100%;
     height: 100%;
     row-gap: 50px; }
+    main .section__top .section__top__content .section__top--img img {
+      width: 350px; }
     main .section__top .section__top__content .section__content--text .p__seunegocio {
       font-size: 17px; }
     main .section__top .section__top__content .section__content--text .h2__website {
       font-size: 30px; }
   main .section__opção {
     align-items: center;
-    padding: 0 20px; }
+    padding: 0 20px;
+    margin-top: 50%; }
     main .section__opção .section__opção--form {
       text-align: center; }
       main .section__opção .section__opção--form label {
         padding: 10px; }
       main .section__opção .section__opção--form input {
         margin-bottom: 15px; }
+    main .section__opção .img__opcao img {
+      width: 300px; }
   main .section__comentarios .card__box {
     position: relative;
     display: flex;
