@@ -37,6 +37,8 @@
 
      <!--Google icons End-->
 
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Codar</title>
 </head>
 
@@ -49,11 +51,11 @@
                     Codar<span>.</span>
                 </h1>
             </div>
-            <nav class="nav__list">
+            <nav class="nav__list" id="inicio">
                 <ul class="nav__link">
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#Serviços">Serviços</a></li>
+                    <li><a href="#contatos">Contato</a></li>
                     <span>
                         <a class="btn__link" href="#">Login</a>
                     </span>
@@ -61,7 +63,7 @@
             </nav>
         </header>
 
-        <section class="section__top">
+        <section class="section__top section1">
             <div class="section__top__content">
                 <picture class="section__top--img">
                     <img class="img__video" src="css/assets/video_call.png" alt="video_call">
@@ -74,7 +76,7 @@
             </div>
         </section>
 
-        <section class="section__opção conteiner">
+        <section class="section__opção conteiner section2" id="Serviços" data-aos="fade-up">
             <picture class="img__opcao">
                 <img src="assets/coding_.png" alt="coding">
             </picture>
@@ -93,7 +95,7 @@
         </section>
 
 
-        <section class="section__comentarios conteiner">
+        <section class="section__comentarios conteiner section3"  data-aos="fade-up">
             <div class="card__box">
                 <div class="img__comentarios"></div>
                 <div class="card__text">
@@ -131,7 +133,7 @@
 
     </main>
 
-    <footer class="footer conteiner d-flex">
+    <footer class="footer conteiner d-flex" id="contatos">
         <div class="P1__text">
             <strong>Codar.</strong>
             <p>
@@ -159,6 +161,11 @@
             <a href=""> <i class="bi bi-twitter text-danger"></i></a>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

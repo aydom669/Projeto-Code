@@ -8,6 +8,10 @@
 
 // Base
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: whitesmoke;
     font-family: 'Roboto';
@@ -92,6 +96,7 @@ main {
         display: flex;
         align-items: center;
         margin-top: 100px;
+        
 
         .section__top__content {
             display: flex;
@@ -155,7 +160,9 @@ main {
         height: 70vh;
         display: flex;
         flex-direction: row-reverse;
+        
 
+       
         .img__opcao img {
             width: 400px;
             margin-left: 20%;
@@ -207,6 +214,7 @@ main {
             padding: 10px 20px;
             outline: none;
             border: none;
+            font-weight: 700;
         }
 
     }
